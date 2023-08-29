@@ -13,7 +13,7 @@ type Member[T comparable] struct {
 
 // iMember is the type constraint for Member used by Enum.
 //
-// We can't use Mamber directly in type constraints
+// We can't use Member directly in type constraints
 // because the users create a new subtype from Member
 // instead of using it directly.
 //
